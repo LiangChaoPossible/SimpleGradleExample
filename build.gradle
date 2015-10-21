@@ -1,0 +1,78 @@
+/*
+ * Copyright (C) 2015 liangchao
+ */
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+    }
+}
+
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        versionCode 12
+        versionName "2xyx"
+        minSdkVersion 8
+        targetSdkVersion 17
+        applicationId "com.example.SimpleGradleExample2"
+        proguardFile "proguard.cfg"
+    }
+
+    dependencies {
+        compile files('libs/mathutil.jar')
+    }
+
+    sourceSets { // 配置文件及文件夹路径
+        main {
+            manifest {
+                srcFile 'AndroidManifest.xml'
+            }
+            res {
+                srcDir 'res'
+            }
+            java {
+                srcDir 'src'
+            }
+            assets {
+                srcDir 'assets'
+            }
+        }
+    }
+
+    //签名配置
+    signingConfigs {
+        relaseConfig {
+            storeFile file("sge.keystore")
+            storePassword "sgesge"
+            keyAlias "sgesge"
+            keyPassword "sgesge"
+        }
+    }
+
+    buildTypes {
+        debug {
+            debuggable true //ddms里边可以看到进程，否则没法debug
+            jniDebuggable true
+            renderscriptDebuggable true
+            renderscriptOptimLevel 3
+            applicationIdSuffix ".debug"
+            versionNameSuffix ".debug"
+            zipAlignEnabled false
+            minifyEnabled true
+            proguardFile "proguard.cfg"
+        }
+
+        release {
+            minifyEnabled false
+            proguardFile 'proguard.cfg'
+            signingConfig signingConfigs.relaseConfig
+        }
+    }
+}

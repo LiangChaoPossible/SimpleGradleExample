@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/apple/Desktop/ImportModule/SimpleGradleExample/libs/mathutil.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7bf72a12ed07076c28f9e4b9f9cbfa4bfc4be9e5">
+        <dex dex="/Users/apple/Desktop/ImportModule/SimpleGradleExample/build/intermediates/pre-dexed/release/mathutil-dcd0734cdd7aa90d515ff1f7c9180f4e78b19e79.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,5 @@
+com.example.SimpleGradleExample.MyActivity -> com.example.SimpleGradleExample.MyActivity:
+    android.widget.TextView mTv -> a
+    void onCreate(android.os.Bundle) -> onCreate
+com.mathutil.Suber -> com.a.a:
+    int sub(int,int) -> a

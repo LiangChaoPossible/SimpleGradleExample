@@ -1,0 +1,192 @@
+_____________________________________________________________________
+- Program class: com/example/SimpleGradleExample/MyActivity
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x21
+    = public class com.example.SimpleGradleExample.MyActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 55):
+  - Integer [2130903040]
+  - Integer [2131034112]
+  - String [sub val : ]
+  - Class [android/app/Activity]
+  - Class [android/widget/TextView]
+  - Class [com/a/a]
+  - Class [com/example/SimpleGradleExample/MyActivity]
+  - Class [java/lang/StringBuilder]
+  - Fieldref [com/example/SimpleGradleExample/MyActivity.a Landroid/widget/TextView;]
+  - Methodref [android/app/Activity.<init> ()V]
+  - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  - Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  - Methodref [com/a/a.<init> ()V]
+  - Methodref [com/a/a.a (II)I]
+  - Methodref [com/example/SimpleGradleExample/MyActivity.findViewById (I)Landroid/view/View;]
+  - Methodref [com/example/SimpleGradleExample/MyActivity.setContentView (I)V]
+  - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  - Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  - NameAndType [<init> ()V]
+  - NameAndType [<init> (Ljava/lang/String;)V]
+  - NameAndType [a (II)I]
+  - NameAndType [a Landroid/widget/TextView;]
+  - NameAndType [append (I)Ljava/lang/StringBuilder;]
+  - NameAndType [findViewById (I)Landroid/view/View;]
+  - NameAndType [onCreate (Landroid/os/Bundle;)V]
+  - NameAndType [setContentView (I)V]
+  - NameAndType [setText (Ljava/lang/CharSequence;)V]
+  - NameAndType [toString ()Ljava/lang/String;]
+  - Utf8 [()Ljava/lang/String;]
+  - Utf8 [()V]
+  - Utf8 [(I)Landroid/view/View;]
+  - Utf8 [(I)Ljava/lang/StringBuilder;]
+  - Utf8 [(I)V]
+  - Utf8 [(II)I]
+  - Utf8 [(Landroid/os/Bundle;)V]
+  - Utf8 [(Ljava/lang/CharSequence;)V]
+  - Utf8 [(Ljava/lang/String;)V]
+  - Utf8 [<init>]
+  - Utf8 [Code]
+  - Utf8 [Landroid/widget/TextView;]
+  - Utf8 [a]
+  - Utf8 [android/app/Activity]
+  - Utf8 [android/widget/TextView]
+  - Utf8 [append]
+  - Utf8 [com/a/a]
+  - Utf8 [com/example/SimpleGradleExample/MyActivity]
+  - Utf8 [findViewById]
+  - Utf8 [java/lang/StringBuilder]
+  - Utf8 [onCreate]
+  - Utf8 [setContentView]
+  - Utf8 [setText]
+  - Utf8 [sub val : ]
+  - Utf8 [toString]
+
+Fields (count = 1):
+  - Field:        a Landroid/widget/TextView;
+    Access flags: 0x2
+      = private android.widget.TextView a
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MyActivity()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #10
+        - Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 63, locals = 2, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #11
+        - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        - Integer [2130903040]
+      [8] invokevirtual #16
+        - Methodref [com/example/SimpleGradleExample/MyActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] dup
+      [13] astore_1 v1
+      [14] aload_1 v1
+      [15] ldc #2
+        - Integer [2131034112]
+      [17] invokevirtual #15
+        - Methodref [com/example/SimpleGradleExample/MyActivity.findViewById (I)Landroid/view/View;]
+      [20] checkcast #5
+        - Class [android/widget/TextView]
+      [23] putfield #9
+        - Fieldref [com/example/SimpleGradleExample/MyActivity.a Landroid/widget/TextView;]
+      [26] aload_0 v0
+      [27] astore_1 v1
+      [28] new #6
+        - Class [com/a/a]
+      [31] invokespecial #13
+        - Methodref [com/a/a.<init> ()V]
+      [34] aload_1 v1
+      [35] getfield #9
+        - Fieldref [com/example/SimpleGradleExample/MyActivity.a Landroid/widget/TextView;]
+      [38] new #8
+        - Class [java/lang/StringBuilder]
+      [41] dup
+      [42] ldc #3
+        - String [sub val : ]
+      [44] invokespecial #17
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [47] bipush 10
+      [49] iconst_5
+      [50] invokestatic #14
+        - Methodref [com/a/a.a (II)I]
+      [53] invokevirtual #18
+        - Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [56] invokevirtual #19
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [59] invokevirtual #12
+        - Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [62] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
+- Program class: com/a/a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class com.a.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 12):
+  - Class [com/a/a]
+  - Class [java/lang/Object]
+  - Methodref [java/lang/Object.<init> ()V]
+  - NameAndType [<init> ()V]
+  - Utf8 [()V]
+  - Utf8 [(II)I]
+  - Utf8 [<init>]
+  - Utf8 [Code]
+  - Utf8 [a]
+  - Utf8 [com/a/a]
+  - Utf8 [java/lang/Object]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public a()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #3
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       a(II)I
+    Access flags: 0x9
+      = public static int a(int,int)
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 2, locals = 2, stack = 1):
+      [0] iconst_5
+      [1] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

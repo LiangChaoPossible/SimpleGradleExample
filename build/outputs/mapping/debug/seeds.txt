@@ -1,0 +1,2 @@
+com.example.SimpleGradleExample.MyActivity
+com.example.SimpleGradleExample.MyActivity: MyActivity()

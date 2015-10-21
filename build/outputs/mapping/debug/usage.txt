@@ -1,0 +1,8 @@
+com.example.SimpleGradleExample.BuildConfig
+com.example.SimpleGradleExample.ProguardOne
+com.example.SimpleGradleExample.R
+com.example.SimpleGradleExample.R$attr
+com.example.SimpleGradleExample.R$drawable
+com.example.SimpleGradleExample.R$id
+com.example.SimpleGradleExample.R$layout
+com.example.SimpleGradleExample.R$string
